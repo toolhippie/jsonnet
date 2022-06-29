@@ -3,8 +3,12 @@
     "extends": [
         "github>webhippie/renovate:docker"
     ],
-    "packageRules": [{
-        "groupName": "jsonnet packages",
-        "matchDatasources": []
-    }]
+    "packageRules": [
+        {
+            "groupName": "jsonnet packages",
+            "matchDatasources": [
+                "github-releases"
+            ]
+        }
+    ]
 }
