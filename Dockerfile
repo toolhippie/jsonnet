@@ -1,4 +1,4 @@
-FROM webhippie/alpine:3.16
+FROM webhippie/alpine:3.17
 ENTRYPOINT [""]
 
 # renovate: datasource=github-releases depName=jsonnet-bundler/jsonnet-bundler
