@@ -1,4 +1,4 @@
-FROM ghcr.io/dockhippie/alpine:3.19
+FROM ghcr.io/dockhippie/alpine:3.20
 ENTRYPOINT [""]
 
 # renovate: datasource=github-releases depName=jsonnet-bundler/jsonnet-bundler
