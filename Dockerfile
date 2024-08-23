@@ -2,7 +2,7 @@ FROM ghcr.io/dockhippie/alpine:3.20
 ENTRYPOINT [""]
 
 # renovate: datasource=github-releases depName=jsonnet-bundler/jsonnet-bundler
-ENV JSONNET_BUNDLER_VERSION=0.5.1
+ENV JSONNET_BUNDLER_VERSION=0.6.0
 
 ARG TARGETARCH
 
