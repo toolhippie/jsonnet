@@ -1,4 +1,4 @@
-FROM ghcr.io/dockhippie/alpine:3.23@sha256:9d02517b6423d07d763d4eff86f19dc0d329791380e946438822137c9244da30
+FROM ghcr.io/dockhippie/alpine:3.23@sha256:c2218a341d02631f8fe99633a9daef146324b9a0b8a1269c2410446f04034319
 ENTRYPOINT [""]
 
 # renovate: datasource=github-releases depName=jsonnet-bundler/jsonnet-bundler
